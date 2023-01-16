@@ -1,0 +1,24 @@
+{
+  "name": "youngnomads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaranChandekar/young-nomads.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaranChandekar/young-nomads/issues"
+  },
+  "homepage": "https://github.com/KaranChandekar/young-nomads#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
