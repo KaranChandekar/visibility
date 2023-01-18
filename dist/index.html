@@ -22,38 +22,54 @@
 
   <body>
     <!--top banner-->
-    <div class="bg-blue-500 py-2 text-center">
-      <p>
-        What's new to Young Nomads - open and closed card sorting
-      </p>
+    <div class="bg-gradient-to-r from-sky-600 to-cyan-400 py-2 text-center">
+      <p>What's new to Young Nomads - open and closed card sorting</p>
     </div>
 
-    <!-- nav bar -->
-    <nav
-      class="p-5 shadow md:flex md:items-center md:justify-between"
-      data-aos-delay="1200"
-      data-aos-duration="1000"
-    >
-      <div class="flex justify-between items-center">
-        <a href="#" class="">
-          <!-- <img src="./assets/brand-logo.png" alt="company company-logo"> -->
-          <h1 class="text-3xl">YoungNomads</h1>
-        </a>
+    <!-- Navbar -->
+    <nav class="px-4 xl:px-10 py-4 flex items-center justify-between">
+      <a href="#" class="z-20">
+        <h1 class="text-3xl">YoungNomads</h1>
+      </a>
 
-        <span class="text-3xl cursor-pointer md:hidden mx-2 block">
+      <div class="flex items-center justify-end">
+        <span class="text-3xl cursor-pointer lg:hidden mx-2 block">
           <ion-icon onclick="onToggleMenu(this)" name="menu" id="menu-icon""></ion-icon>
         </span>
-      </div>
 
-      <ul
-        class="text-lg md:text-base md:flex md:items-center z-[-1] md:z-auto w-full left-0 md:w-auto md:p-0 p-6 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 bg-[#182222] md:bg-transparent rounded-lg mt-6 md:mt-0"
-        id="nav-links"
-      >
-        <li class="mx-4 my-6 py-5 md:py-0 md:my-0 hover:text-blue-500 duration-500 text-blue-500 border-b md:border-none"><a href="#">Home</a></li>
-        <li class="mx-4 my-6 py-5 md:py-0 md:my-0 hover:text-blue-500 duration-500 border-b md:border-none"><a href="#">About</a></li>
-        <li class="mx-4 my-6 py-5 md:py-0 md:my-0 hover:text-blue-500 duration-500 border-b md:border-none"><a href="#">Case Studies</a></li>
-        <li class="mx-4 my-6 py-5 md:py-0 md:my-0 hover:text-blue-500 duration-500 border-b md:border-none"><a href="#">Contact</a></li>
-      </ul>
+        <div
+          class="fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-[#182222] lg:bg-transparent shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0" id="nav-links"
+        >
+          <div
+            class="flex flex-col h-full justify-between lg:items-center lg:flex-row"
+          >
+            <ul
+              class="pt-32 lg:pt-0 space-y-8 lg:space-y-0 lg:flex lg:space-x-10"
+            >
+              <li
+                class="mx-4 py-5 lg:py-0 lg:my-0 duration-500 text-sky-600 border-b lg:border-none"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="mx-4 py-5 lg:py-0 lg:my-0 hover:text-sky-600 duration-500 border-b lg:border-none"
+              >
+                <a href="#">About</a>
+              </li>
+              <li
+                class="mx-4 py-5 lg:py-0 lg:my-0 hover:text-sky-600 duration-500 border-b lg:border-none"
+              >
+                <a href="#">Case Studies</a>
+              </li>
+              <li
+                class="mx-4 py-5 lg:py-0 lg:my-0 hover:text-sky-600 duration-500 border-b lg:border-none"
+              >
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <!-- Scripts -->
