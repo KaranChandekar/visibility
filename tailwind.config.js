@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: {
         "bg-home": "url('/images/home-bg.svg')",
         "bg-about": "url('/images/about-blur.svg')",
+        "bg-case-studies": "url('/images/case-study.png')",
       },
     },
   },

@@ -558,12 +558,16 @@ body {
   margin-right: auto;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mb-8 {
@@ -580,18 +584,6 @@ body {
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .block {
@@ -614,40 +606,12 @@ body {
   width: 100%;
 }
 
-.w-\[90\%\] {
-  width: 90%;
-}
-
 .w-96 {
   width: 24rem;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[450px\] {
-  width: 450px;
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .grow {
@@ -740,6 +704,10 @@ body {
   background-color: transparent;
 }
 
+.bg-bg-about {
+  background-image: url('/images/about-blur.svg');
+}
+
 .bg-bg-home {
   background-image: url('/images/home-bg.svg');
 }
@@ -748,8 +716,8 @@ body {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-bg-about {
-  background-image: url('/images/about-blur.svg');
+.bg-bg-case-studies {
+  background-image: url('/images/case-study.png');
 }
 
 .from-sky-600 {
@@ -762,12 +730,12 @@ body {
   --tw-gradient-to: #22d3ee;
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-no-repeat {
@@ -902,32 +870,32 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:flex {
     display: flex;
   }
 
-  .md\:w-auto {
-    width: auto;
+  .md\:w-\[500px\] {
+    width: 500px;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:w-\[600px\] {
     width: 600px;
   }
 
-  .md\:w-\[500px\] {
-    width: 500px;
+  .md\:w-2\/5 {
+    width: 40%;
   }
 
   .md\:flex-row {
