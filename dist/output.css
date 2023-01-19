@@ -708,6 +708,10 @@ body {
   background-image: url('/images/about-blur.svg');
 }
 
+.bg-bg-case-studies {
+  background-image: url('/images/case-study.png');
+}
+
 .bg-bg-home {
   background-image: url('/images/home-bg.svg');
 }
@@ -716,8 +720,8 @@ body {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-bg-case-studies {
-  background-image: url('/images/case-study.png');
+.bg-bg-contact {
+  background-image: url('/images/contact-glow.944a9bf8.svg');
 }
 
 .from-sky-600 {
