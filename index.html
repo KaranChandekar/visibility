@@ -15,38 +15,38 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
-<body class="bg-bg-img bg-no-repeat bg-contain">
+<body class="bg-no-repeat bg-contain bg-bg-img">
   <!--top banner-->
-  <div class="bg-gradient-to-r from-sky-600 to-cyan-400 py-2 text-center">
+  <div class="py-2 text-center bg-gradient-to-r from-sky-600 to-cyan-400">
     <p>What's new to Young Nomads - open and closed card sorting</p>
   </div>
 
   <!-- Navbar -->
-  <nav class="px-4 xl:px-10 py-4 flex items-center justify-between">
+  <nav class="flex items-center justify-between px-4 py-4 xl:px-10">
     <a href="#" class="z-20">
       <h1 class="text-3xl">YoungNomads</h1>
     </a>
 
     <div class="flex items-center justify-end">
-      <span class="text-3xl cursor-pointer lg:hidden mx-2 block z-20">
+      <span class="z-20 block mx-2 text-3xl cursor-pointer lg:hidden">
         <ion-icon onclick="onToggleMenu(this)" name="menu" id="menu-icon""></ion-icon>
       </span>
 
       <div
         class=" fixed inset-0 w-full translate-x-[-100%] bg-[#182222] lg:bg-transparent shadow-xl transition
           duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0" id="nav-links">
-          <div class="flex flex-col h-full justify-between lg:items-center lg:flex-row">
-            <ul class="pt-32 lg:pt-0 space-y-8 lg:space-y-0 lg:flex lg:space-x-10">
-              <li class="mx-4 py-5 lg:py-0 lg:my-0 duration-500 text-sky-600 border-b lg:border-none">
+          <div class="flex flex-col justify-between h-full lg:items-center lg:flex-row">
+            <ul class="pt-32 space-y-8 lg:pt-0 lg:space-y-0 lg:flex lg:space-x-10">
+              <li class="py-5 mx-4 duration-500 border-b lg:py-0 lg:my-0 text-sky-600 lg:border-none">
                 <a href="#">Home</a>
               </li>
-              <li class="mx-4 py-5 lg:py-0 lg:my-0 hover:text-sky-600 duration-500 border-b lg:border-none">
+              <li class="py-5 mx-4 duration-500 border-b lg:py-0 lg:my-0 hover:text-sky-600 lg:border-none">
                 <a href="/about.html">About</a>
               </li>
-              <li class="mx-4 py-5 lg:py-0 lg:my-0 hover:text-sky-600 duration-500 border-b lg:border-none">
+              <li class="py-5 mx-4 duration-500 border-b lg:py-0 lg:my-0 hover:text-sky-600 lg:border-none">
                 <a href="/case-studies.html">Case Studies</a>
               </li>
-              <li class="mx-4 py-5 lg:py-0 lg:my-0 hover:text-sky-600 duration-500 border-b lg:border-none">
+              <li class="py-5 mx-4 duration-500 border-b lg:py-0 lg:my-0 hover:text-sky-600 lg:border-none">
                 <a href="/contact.html">Contact</a>
               </li>
             </ul>
@@ -57,18 +57,18 @@
 
   <!-- Header -->
   <header
-    class="px-4 md:px-14 lg:px-24 xl:px-32 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left">
-    <div class="md:mb-0 mb-10">
-      <h1 class="text-5xl lg:text-7xl mb-6 md:mb-10">Young Nomads</h1>
-      <p class="text-lg lg:text-2xl mb-10">The SEO Company that will grow you online.</p>
-      <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+    class="flex flex-col items-center justify-between px-4 py-16 text-center md:px-14 lg:px-24 xl:px-32 md:flex-row md:text-left">
+    <div class="mb-10 md:mb-0">
+      <h1 class="mb-6 text-5xl lg:text-7xl md:mb-10">Young Nomads</h1>
+      <p class="mb-10 text-lg lg:text-2xl">The SEO Company that will grow you online.</p>
+      <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
         <a class="font-bold" href="#">Get Started</a></button>
     </div>
     <img class="w-[90%] sm:w-[70%] md:w-2/5" src="/images/img1.png" alt="Marketing">
   </header>
 
   <!-- Companies Section -->
-  <div class="px-10 md:px-14 lg:px-24 xl:px-32 md:py-16 text-center">
+  <div class="px-10 text-center md:px-14 lg:px-24 xl:px-32 md:py-16">
     <h3 class="md:text-lg lg:text-2xl lg:w-[750px] lg:m-auto">The world's best companies rely on Young Nomads to improve
       their online
       performance.</h3>
@@ -91,16 +91,16 @@
     </div>
   </div>
 
-  <div class="px-4 md:px-14 lg:px-24 xl:px-32 py-16 text-center">
+  <div class="px-4 py-16 text-center md:px-14 lg:px-24 xl:px-32">
     <h2 class="text-3xl md:text-4xl lg:text-5xl lg:w-[750px] lg:m-auto">Gain Context, Address Blind Spots, and Eliminate
       Universal
       Risk</h2>
-    <div class="md:px-4 py-16">
+    <div class="py-16 md:px-4">
       <div
         class="px-6 py-16 md:py-4 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-2 lg:space-x-5">
         <img class="md:w-1/2" src="/images/gain-context.svg" alt="">
         <div class="mt-5 md:mt-0">
-          <h3 class="text-2xl md:text-3xl lg:text-4xl mb-3 lg:mb-5">Gain Context</h3>
+          <h3 class="mb-3 text-2xl md:text-3xl lg:text-4xl lg:mb-5">Gain Context</h3>
           <p class="md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero assumenda, nostrum quod id
             labore dolores distinctio vitae! Quasi, tempora? Harum ipsum pariatur veniam sit iusto ad voluptates quidem
             voluptate impedit!.</p>
@@ -110,7 +110,7 @@
         class="px-6 py-16 md:py-4 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-2 lg:space-x-5">
         <img class="md:w-1/2" src="/images/risk.svg" alt="">
         <div class="mt-5 md:mt-0">
-          <h3 class="text-2xl md:text-3xl lg:text-4xl mb-3 lg:mb-5">Eliminate Risk</h3>
+          <h3 class="mb-3 text-2xl md:text-3xl lg:text-4xl lg:mb-5">Eliminate Risk</h3>
           <p class="md:text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab quas aut dolorum harum
             explicabo dolor impedit itaque praesentium, nulla maxime eum iste asperiores unde laborum, voluptates
             laudantium, fuga velit!.</p>
@@ -120,7 +120,7 @@
         class="px-6 py-16 md:py-4 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl w-[320px] md:w-auto mx-auto md:space-x-2 lg:space-x-5">
         <img class="md:w-1/2" src="/images/blind-spot.svg" alt="">
         <div class="mt-5 md:mt-0">
-          <h3 class="text-2xl md:text-3xl lg:text-4xl mb-3 lg:mb-5">Address Blind Spots</h3>
+          <h3 class="mb-3 text-2xl md:text-3xl lg:text-4xl lg:mb-5">Address Blind Spots</h3>
           <p class="md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem sunt, id
             accusantium numquam blanditiis consequatur, sapiente sit expedita voluptatem quod debitis saepe error ea
             maxime vel, provident repudiandae asperiores!.</p>
@@ -130,70 +130,70 @@
   </div>
 
   <!-- feature section -->
-  <div class="px-10 md:px-14 lg:px-24 xl:px-32 py-16 text-center">
+  <div class="px-10 py-16 text-center md:px-14 lg:px-24 xl:px-32">
     <h2 class="text-3xl md:text-4xl lg:text-5xl lg:w-[750px] lg:mx-auto mb-14">Features of Young Nomads.</h2>
 
-    <div class="md:grid grid-cols-2 xl:grid-cols-3 gap-8">
+    <div class="grid-cols-2 gap-8 md:grid xl:grid-cols-3">
       <div class="mb-14 md:mb-2 bg-[#182222] p-8 rounded-lg">
-        <img class="w-14 mx-auto my-4" src="/images/feature1.svg" alt="">
-        <h3 class="text-2xl md:text-3xl lg:text-4xl mb-4">Gain Context</h3>
+        <img class="mx-auto my-4 w-14" src="/images/feature1.svg" alt="">
+        <h3 class="mb-4 text-2xl md:text-3xl lg:text-4xl">Gain Context</h3>
         <p class="mb-4 md:text-lg">Through data aggregation, Hubble brings context to your existing data and identifies
           new assets
           and risks
           currently flying under the radar of the overall network – bringing agentless visibility to your entire tech
           stack.</p>
-        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+        <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
           <a href="#" class="">Learn More <i class="fa-solid fa-right-long"></i></a>
         </button>
       </div>
 
       <div class="mb-14 md:mb-2 bg-[#182222] p-8 rounded-lg">
-        <img class="w-14 mx-auto my-4" src="/images/feature2.svg" alt="">
-        <h3 class="text-2xl md:text-3xl lg:text-4xl mb-4">Address Blind Spots</h3>
+        <img class="mx-auto my-4 w-14" src="/images/feature2.svg" alt="">
+        <h3 class="mb-4 text-2xl md:text-3xl lg:text-4xl">Address Blind Spots</h3>
         <p class="mb-4 md:text-lg">By thoroughly understanding the state of your enterprise and what is going on,
           organizations are
           able to
           address gaps in a timely and effective manner.</p>
-        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+        <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
           <a href="#" class="">Learn More <i class="fa-solid fa-right-long"></i></a>
         </button>
       </div>
 
       <div class="mb-14 md:mb-2 bg-[#182222] p-8 rounded-lg">
-        <img class="w-14 mx-auto my-4" src="/images/feature3.svg" alt="">
-        <h3 class="text-2xl md:text-3xl lg:text-4xl mb-4">Eliminate Risk</h3>
+        <img class="mx-auto my-4 w-14" src="/images/feature3.svg" alt="">
+        <h3 class="mb-4 text-2xl md:text-3xl lg:text-4xl">Eliminate Risk</h3>
         <p class="mb-4 md:text-lg">By fully understanding what you know about your network and gaining visibility into
           previous
           black holes,
           organizations can fully remediate risks previously unavailable to them.</p>
-        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+        <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
           <a href="#" class="">Learn More <i class="fa-solid fa-right-long"></i></a>
         </button>
       </div>
 
       <div class="mb-14 md:mb-2 bg-[#182222] p-8 rounded-lg">
-        <img class="w-14 mx-auto my-4" src="/images/feature4.svg" alt="">
-        <h3 class="text-2xl md:text-3xl lg:text-4xl mb-4">Design surveys</h3>
+        <img class="mx-auto my-4 w-14" src="/images/feature4.svg" alt="">
+        <h3 class="mb-4 text-2xl md:text-3xl lg:text-4xl">Design surveys</h3>
         <p class="mb-4 md:text-lg">Get feedback on images, videos or audio files.</p>
-        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+        <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
           <a href="#" class="">Learn More <i class="fa-solid fa-right-long"></i></a>
         </button>
       </div>
 
       <div class="mb-14 md:mb-2 bg-[#182222] p-8 rounded-lg">
-        <img class="w-14 mx-auto my-4" src="/images/feature5.svg" alt="">
-        <h3 class="text-2xl md:text-3xl lg:text-4xl mb-4">Preference tests</h3>
+        <img class="mx-auto my-4 w-14" src="/images/feature5.svg" alt="">
+        <h3 class="mb-4 text-2xl md:text-3xl lg:text-4xl">Preference tests</h3>
         <p class="mb-4 md:text-lg">Find out which designs users prefer and why.</p>
-        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+        <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
           <a href="#" class="">Learn More <i class="fa-solid fa-right-long"></i></a>
         </button>
       </div>
 
       <div class="mb-14 md:mb-2 bg-[#182222] p-8 rounded-lg">
-        <img class="w-14 mx-auto my-4" src="/images/feature6.svg" alt="">
-        <h3 class="text-2xl md:text-3xl lg:text-4xl mb-4">Five second tests</h3>
+        <img class="mx-auto my-4 w-14" src="/images/feature6.svg" alt="">
+        <h3 class="mb-4 text-2xl md:text-3xl lg:text-4xl">Five second tests</h3>
         <p class="mb-4 md:text-lg">Test comprehensibility by measuring first impressions.</p>
-        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+        <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
           <a href="#" class="">Learn More <i class="fa-solid fa-right-long"></i></a>
         </button>
       </div>
@@ -202,57 +202,57 @@
 
   <!-- CIO section -->
   <div class="px-10 md:px-14 lg:px-24 xl:px-32">
-    <div class="md:grid grid-cols-2 gap-6 text-center md:my-20">
-      <div class="border border-gray-700 rounded-lg p-8 mb-8 md:mb-0 md:flex">
-        <i class="fa-solid fa-user text-xl mb-4"></i>
+    <div class="grid-cols-2 gap-6 text-center md:grid md:my-20">
+      <div class="p-8 mb-8 border border-gray-700 rounded-lg md:mb-0 md:flex">
+        <i class="mb-4 text-xl fa-solid fa-user"></i>
         <div class="">
-          <h3 class="text-2xl mb-3">I'm a CISO</h3>
+          <h3 class="mb-3 text-2xl">I'm a CISO</h3>
           <p class="lg:text-lg">Understand, quantify, and mitigate underlying risk by validating your assets and their
             risks.</p>
         </div>
         <div class="go-corner" href="#">
-          <div class="go-arrow cursor-pointer hover:text-sky-600">
+          <div class="cursor-pointer go-arrow hover:text-sky-600">
             →
           </div>
         </div>
       </div>
-      <div class="border border-gray-700 rounded-lg p-8 mb-8 md:mb-0 md:flex">
-        <i class="fa-solid fa-user text-xl mb-4"></i>
+      <div class="p-8 mb-8 border border-gray-700 rounded-lg md:mb-0 md:flex">
+        <i class="mb-4 text-xl fa-solid fa-user"></i>
         <div class="descreption">
-          <h3 class="text-2xl mb-3">I'm a CIO</h3>
+          <h3 class="mb-3 text-2xl">I'm a CIO</h3>
           <p class="lg:text-lg">Provide assurance in monitoring and management of IT software, hardware, systems and
             integrations owned by
             the business.</p>
         </div>
         <div class="go-corner" href="#">
-          <div class="go-arrow cursor-pointer hover:text-sky-600">
+          <div class="cursor-pointer go-arrow hover:text-sky-600">
             →
           </div>
         </div>
       </div>
-      <div class="border border-gray-700 rounded-lg p-8 mb-8 md:mb-0 md:flex">
-        <i class="fa-solid fa-user text-xl mb-4"></i>
+      <div class="p-8 mb-8 border border-gray-700 rounded-lg md:mb-0 md:flex">
+        <i class="mb-4 text-xl fa-solid fa-user"></i>
         <div class="descreption">
-          <h3 class="text-2xl mb-3">I'm a SOC Analyst</h3>
+          <h3 class="mb-3 text-2xl">I'm a SOC Analyst</h3>
           <p class="lg:text-lg">Ensure timely and effective response to an investigation by being able to confidently
             answer asset related
             questions.</p>
         </div>
         <div class="go-corner" href="#">
-          <div class="go-arrow cursor-pointer hover:text-sky-600">
+          <div class="cursor-pointer go-arrow hover:text-sky-600">
             →
           </div>
         </div>
       </div>
-      <div class="border border-gray-700 rounded-lg p-8 mb-8 md:mb-0 md:flex">
-        <i class="fa-solid fa-user text-xl mb-4"></i>
+      <div class="p-8 mb-8 border border-gray-700 rounded-lg md:mb-0 md:flex">
+        <i class="mb-4 text-xl fa-solid fa-user"></i>
         <div class="descreption">
-          <h3 class="text-2xl mb-3">I'm an IT Operator</h3>
+          <h3 class="mb-3 text-2xl">I'm an IT Operator</h3>
           <p class="lg:text-lg">Improve IT operations and monitoring by understanding the entire landscape of your
             assets.</p>
         </div>
         <div class="go-corner" href="#">
-          <div class="go-arrow cursor-pointer hover:text-sky-600">
+          <div class="cursor-pointer go-arrow hover:text-sky-600">
             →
           </div>
         </div>
@@ -264,12 +264,12 @@
   <div class="px-10 md:px-14 lg:px-24 xl:px-32 my-28 text-center bg-[#182222] py-20">
     <div class="space-y-6">
       <h2 class="text-3xl md:text-4xl lg:text-5xl">Why Choose Us?</h2>
-      <div class="md:text-xl space-y-2">
+      <div class="space-y-2 md:text-xl">
         <p>Its simple, we deliver results.</p>
         <p>Growth. 🚀 </p>
         <p>Organic traffic from Google.</p>
       </div>
-      <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+      <button class="w-full px-10 py-4 duration-500 rounded-lg md:w-auto bg-sky-600 hover:bg-sky-700">
         <a href="#" class="primary-button">Get started</a>
       </button>
     </div>
@@ -277,69 +277,69 @@
 
 
   <!-- footer -->
-  <footer class="px-4 md:px-14 lg:px-24 xl:px-32 py-16 md:flex flex-row justify-between">
+  <footer class="flex-row justify-between px-4 py-16 md:px-14 lg:px-24 xl:px-32 md:flex">
     <div class="flex flex-col mb-8 space-y-4">
       <a href="#">
-        <h1 class="text-3xl mb-4">YoungNomads</h1>
+        <h1 class="mb-4 text-3xl">YoungNomads</h1>
       </a>
       <div class="flex flex-col mb-8 space-y-4">
-        <a href="#" class="hover:text-sky-600 duration-500"><i class="fa-brands fa-linkedin pr-5"></i>Linkedin</a>
-        <a href="#" class="hover:text-sky-600 duration-500"><i class="fa-brands fa-twitter pr-5"></i>Twitter</a>
+        <a href="#" class="duration-500 hover:text-sky-600"><i class="pr-5 fa-brands fa-linkedin"></i>Linkedin</a>
+        <a href="#" class="duration-500 hover:text-sky-600"><i class="pr-5 fa-brands fa-twitter"></i>Twitter</a>
       </div>
     </div>
 
     <div class="flex flex-col mb-8 space-y-4">
       <h4 class="text-xl text-gray-400">Digital Marketing Institutes</h4>
-      <a href="#" class="hover:text-sky-600 duration-500">Udaipur</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Indore</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Calicut</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Dehradun</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Raipur</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Udaipur</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Indore</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Calicut</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Dehradun</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Raipur</a>
     </div>
 
     <div class="flex flex-col mb-8 space-y-4">
       <h4 class="text-xl text-gray-400">Digital Marketing Companies</h4>
-      <a href="#" class="hover:text-sky-600 duration-500">New York</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Delhi</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Trivandrum</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Kochi</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Kolkata</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Ahmedabad</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Indore</a>
+      <a href="#" class="duration-500 hover:text-sky-600">New York</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Delhi</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Trivandrum</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Kochi</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Kolkata</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Ahmedabad</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Indore</a>
     </div>
 
     <div class="flex flex-col mb-8 space-y-4">
       <h4 class="text-xl text-gray-400">Affiliate Products</h4>
-      <a href="#" class="hover:text-sky-600 duration-500">SEMRush Free Trial</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Bluehost Hosting</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Affiliate Disclosure</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Affiliate Agreement</a>
+      <a href="#" class="duration-500 hover:text-sky-600">SEMRush Free Trial</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Bluehost Hosting</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Affiliate Disclosure</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Affiliate Agreement</a>
     </div>
   </footer>
 
   <!-- Newsletter -->
   <div
-    class="px-4 mb-20 md:px-14 lg:px-24 xl:px-32 flex flex-col lg:flex-row items-center justify-between text-center lg:text-left">
-    <h2 class="text-2xl md:text-3xl md:w-96 mb-8 lg:mb-0">Get the latest updates. Subscribe for our newsletter</h2>
+    class="flex flex-col items-center justify-between px-4 mb-20 text-center md:px-14 lg:px-24 xl:px-32 lg:flex-row lg:text-left">
+    <h2 class="mb-8 text-2xl md:text-3xl md:w-96 lg:mb-0">Get the latest updates. Subscribe for our newsletter</h2>
     <div
       class="border border-gray-700 rounded-lg flex justify-between content-center p-2 space-x-4 w-full md:w-[600px] lg:w-auto xl:w-[600px]">
-      <input class="p-4 w-full bg-transparent border-none outline-none" type="text" placeholder="Enter your email">
-      <button class="bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+      <input class="w-full p-4 bg-transparent border-none outline-none" type="text" placeholder="Enter your email">
+      <button class="px-10 py-4 duration-500 rounded-lg bg-sky-600 hover:bg-sky-700">
         <a class="font-bold" href="#">Subscribe</a></button>
     </div>
   </div>
 
   <div class="px-4 md:px-14 lg:px-24 xl:px-32">
-    <hr class="border border-gray-700 mb-20">
+    <hr class="mb-20 border border-gray-700">
   </div>
 
   <!-- Subfooter -->
-  <div class="px-4 mb-12 md:px-14 lg:px-24 xl:px-32 lg:flex justify-between text-center">
-    <div class="flex flex-col md:flex-row md:justify-center mb-8 space-y-4 md:space-y-0 md:space-x-10">
-      <a href="#" class="hover:text-sky-600 duration-500">Privacy policy</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Terms of Use</a>
-      <a href="#" class="hover:text-sky-600 duration-500">Link Policy</a>
-      <a href="#" class="hover:text-sky-600 duration-500">FB Policy</a>
+  <div class="justify-between px-4 mb-12 text-center md:px-14 lg:px-24 xl:px-32 lg:flex">
+    <div class="flex flex-col mb-8 space-y-4 md:flex-row md:justify-center md:space-y-0 md:space-x-10">
+      <a href="#" class="duration-500 hover:text-sky-600">Privacy policy</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Terms of Use</a>
+      <a href="#" class="duration-500 hover:text-sky-600">Link Policy</a>
+      <a href="#" class="duration-500 hover:text-sky-600">FB Policy</a>
     </div>
     <h5 class="text-gray-400">Copyright © 2023 Young Nomads | Digital Marketing</h5>
   </div>
