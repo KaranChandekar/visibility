@@ -74,12 +74,13 @@
 
     <!-- Header -->
     <header class="px-4 md:px-14 lg:px-24 xl:px-32 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left">
-      <div class="md:mb-0 mb-20">
+      <div class="md:mb-0 mb-10">
         <h1 class="text-5xl lg:text-7xl mb-6 md:mb-10">Young Nomads</h1>
         <p class="text-lg lg:text-2xl mb-10">The SEO Company that will grow you online.</p>
-        <a class="bg-sky-600 font-bold py-4 px-10 rounded-lg hover:bg-sky-700 duration-500 " href="#">Get Started</a>
+        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+        <a class="font-bold" href="#">Get Started</a></button>
       </div>
-      <img class="w-full md:w-2/5" src="/images/img1.png" alt="Marketing">
+      <img class="w-[90%] sm:w-[70%] md:w-2/5" src="/images/img1.png" alt="Marketing">
     </header>
 
     <!-- footer -->
@@ -95,7 +96,7 @@
       </div>
 
       <div class="flex flex-col mb-8 space-y-4">
-        <h4 class="text-lg font-bold">Digital Marketing Institutes</h4>
+        <h4 class="text-xl text-gray-400">Digital Marketing Institutes</h4>
         <a href="#" class="hover:text-sky-600 duration-500">Udaipur</a>
         <a href="#" class="hover:text-sky-600 duration-500">Indore</a>
         <a href="#" class="hover:text-sky-600 duration-500">Calicut</a>
@@ -104,7 +105,7 @@
       </div>
 
       <div class="flex flex-col mb-8 space-y-4">
-        <h4 class="text-lg font-bold">Digital Marketing Companies</h4>
+        <h4 class="text-xl text-gray-400">Digital Marketing Companies</h4>
         <a href="#" class="hover:text-sky-600 duration-500">New York</a>
         <a href="#" class="hover:text-sky-600 duration-500">Delhi</a>
         <a href="#" class="hover:text-sky-600 duration-500">Trivandrum</a>
@@ -115,13 +116,23 @@
       </div>
 
       <div class="flex flex-col mb-8 space-y-4">
-        <h4 class="text-lg font-bold">Affiliate Products</h4>
+        <h4 class="text-xl text-gray-400">Affiliate Products</h4>
         <a href="#" class="hover:text-sky-600 duration-500">SEMRush Free Trial</a>
         <a href="#" class="hover:text-sky-600 duration-500">Bluehost Hosting</a>
         <a href="#" class="hover:text-sky-600 duration-500">Affiliate Disclosure</a>
         <a href="#" class="hover:text-sky-600 duration-500">Affiliate Agreement</a>
       </div>
     </footer>
+
+    <!-- Newsletter -->
+    <div class="px-4 mb-12 md:px-14 lg:px-24 xl:px-32 lg:flex justify-between">
+      <h2 class="text-3xl w-96 mb-8 lg:mb-0">Get the latest updates. Subscribe for our newsletter</h2>
+      <div class="border border-gray-700 rounded-lg flex justify-between content-center p-2 space-x-4 xl:w-[600px]">
+        <input class="p-4 w-full bg-transparent border-none outline-none" type="text" placeholder="Enter your email">
+        <button class="w-full md:w-auto bg-sky-600 py-4 px-10 rounded-lg hover:bg-sky-700 duration-500">
+          <a class="font-bold" href="#">Subscribe</a></button>
+      </div>
+    </div>
 
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
