@@ -9,8 +9,5 @@
 
   body {
     @apply bg-[#0e1414];
-    background-image: url(/images/home-bg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
