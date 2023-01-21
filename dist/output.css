@@ -1948,6 +1948,10 @@ body {
   background-size: contain;
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -2818,6 +2822,14 @@ body {
     width: 40rem;
   }
 
+  .md\:w-\[35rem\] {
+    width: 35rem;
+  }
+
+  .md\:w-\[30rem\] {
+    width: 30rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -2957,6 +2969,10 @@ body {
 
   .lg\:w-\[750px\] {
     width: 750px;
+  }
+
+  .lg\:w-\[40rem\] {
+    width: 40rem;
   }
 
   .lg\:translate-x-0 {
