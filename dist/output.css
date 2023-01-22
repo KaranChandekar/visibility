@@ -756,6 +756,10 @@ body {
   z-index: 10;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .float-right {
   float: right;
 }
@@ -854,6 +858,14 @@ body {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .box-border {
@@ -1958,6 +1970,11 @@ body {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#0e1414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 20 20 / var(--tw-bg-opacity));
+}
+
 .bg-bg-img {
   background-image: url('/images/bg/home-bg.svg');
 }
@@ -2126,6 +2143,10 @@ body {
   padding: 1rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -2180,6 +2201,22 @@ body {
 
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-44 {
+  padding-top: 11rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-left {
