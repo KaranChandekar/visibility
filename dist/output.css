@@ -1907,7 +1907,7 @@ body {
 }
 
 .bg-card-img {
-  background-image: url('/images/card-red-glow.303cd894.svg');
+  background-image: url('/images/glow/card-red-glow.303cd894.svg');
 }
 
 .bg-gradient-to-r {
@@ -1918,12 +1918,12 @@ body {
   background-image: url('/images/card-red-glow.303cd894.svg');
 }
 
-.bg-\[url\(\'\/images\/card-purple-glow\.bc96a7d4\.svg\'\)\] {
-  background-image: url('/images/card-purple-glow.bc96a7d4.svg');
-}
-
 .bg-\[url\(\'\/images\/card-mist-glow\.6139fbd9\.svg\'\)\] {
   background-image: url('/images/card-mist-glow.6139fbd9.svg');
+}
+
+.bg-\[url\(\'\/images\/card-purple-glow\.bc96a7d4\.svg\'\)\] {
+  background-image: url('/images/card-purple-glow.bc96a7d4.svg');
 }
 
 .from-indigo-700 {
