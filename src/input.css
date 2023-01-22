@@ -16,4 +16,8 @@
   .container {
     @apply px-4 py-16 lg:px-20;
   }
+
+  .links-container {
+    @apply flex flex-col mb-8 space-y-4;
+  }
 }
