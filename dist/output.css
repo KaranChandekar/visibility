@@ -602,6 +602,20 @@ body {
   }
 }
 
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2115,6 +2129,11 @@ body {
   padding-right: 1.5rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pt-32 {
   padding-top: 8rem;
 }
@@ -2721,6 +2740,20 @@ body {
   @media (min-width: 1536px) {
     .sm\:container {
       max-width: 1536px;
+    }
+  }
+
+  .sm\:container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: 1024px) {
+    .sm\:container {
+      padding-left: 5rem;
+      padding-right: 5rem;
     }
   }
 

@@ -11,3 +11,9 @@
     @apply bg-[#0e1414];
   }
 }
+
+@layer components {
+  .container {
+    @apply px-4 py-16 lg:px-20;
+  }
+}
