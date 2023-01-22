@@ -603,6 +603,8 @@ body {
 }
 
 .container {
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 4rem;
@@ -789,11 +791,6 @@ body {
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .my-10 {
@@ -1977,16 +1974,16 @@ body {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/images\/card-red-glow\.303cd894\.svg\'\)\] {
-  background-image: url('/images/card-red-glow.303cd894.svg');
+.bg-\[url\(\'\/images\/glow\/card-red-glow\.303cd894\.svg\'\)\] {
+  background-image: url('/images/glow/card-red-glow.303cd894.svg');
 }
 
-.bg-\[url\(\'\/images\/card-mist-glow\.6139fbd9\.svg\'\)\] {
-  background-image: url('/images/card-mist-glow.6139fbd9.svg');
+.bg-\[url\(\'\/images\/glow\/card-mist-glow\.6139fbd9\.svg\'\)\] {
+  background-image: url('/images/glow/card-mist-glow.6139fbd9.svg');
 }
 
-.bg-\[url\(\'\/images\/card-purple-glow\.bc96a7d4\.svg\'\)\] {
-  background-image: url('/images/card-purple-glow.bc96a7d4.svg');
+.bg-\[url\(\'\/images\/glow\/card-purple-glow\.bc96a7d4\.svg\'\)\] {
+  background-image: url('/images/glow/card-purple-glow.bc96a7d4.svg');
 }
 
 .from-indigo-700 {
@@ -2137,11 +2134,6 @@ body {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 .px-10 {
@@ -2784,6 +2776,8 @@ body {
   }
 
   .sm\:container {
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 4rem;
@@ -2998,11 +2992,6 @@ body {
     margin: auto;
   }
 
-  .lg\:my-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -3103,17 +3092,8 @@ body {
     border-right-width: 0px;
   }
 
-  .lg\:border-none {
-    border-style: none;
-  }
-
   .lg\:bg-transparent {
     background-color: transparent;
-  }
-
-  .lg\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .lg\:px-14 {
