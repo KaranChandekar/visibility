@@ -12,7 +12,7 @@ const onToggleMenu = (e) => {
 const animation = bodymovin.loadAnimation({
   // animationData: { /* ... */ },
   container: document.getElementById("lottie-container"), // required
-  path: "/images/digitalmarketing.json", // required
+  path: "/images/animations/digitalmarketing.json", // required
   renderer: "svg", // required
   loop: true, // optional
   autoplay: true, // optional

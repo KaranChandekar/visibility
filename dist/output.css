@@ -1903,11 +1903,15 @@ body {
 }
 
 .bg-bg-img {
-  background-image: url('/images/home-bg.svg');
+  background-image: url('/images/bg/home-bg.svg');
 }
 
 .bg-card-img {
   background-image: url('/images/glow/card-red-glow.303cd894.svg');
+}
+
+.bg-\[url\(\'\/images\/glow\/contact-page-contact-form\.png\'\)\] {
+  background-image: url('/images/glow/contact-page-contact-form.png');
 }
 
 .bg-gradient-to-r {
