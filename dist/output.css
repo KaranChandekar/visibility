@@ -3104,6 +3104,10 @@ body {
     background-color: transparent;
   }
 
+  .lg\:bg-none {
+    background-image: none;
+  }
+
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
