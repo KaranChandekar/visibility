@@ -628,6 +628,39 @@ body {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-bottom-width: 1px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  transition-duration: 500ms;
+}
+
+.nav-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .nav-link {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.footer-link {
+  transition-duration: 500ms;
+}
+
+.footer-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

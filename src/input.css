@@ -20,4 +20,12 @@
   .links-container {
     @apply flex flex-col mb-8 space-y-4;
   }
+
+  .nav-link {
+    @apply py-5 mx-4 duration-500 border-b lg:py-0 lg:my-0 hover:text-indigo-500 lg:border-none;
+  }
+
+  .footer-link {
+    @apply duration-500 hover:text-indigo-500;
+  }
 }
