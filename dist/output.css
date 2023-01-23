@@ -2686,26 +2686,12 @@ body {
   transition-duration: 150ms;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.delay-1000 {
-  transition-delay: 1000ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
 }
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-150 {
-  transition-duration: 150ms;
 }
 
 .ease-in {
@@ -2725,25 +2711,17 @@ body {
   content: var(--tw-content);
 }
 
-.hover\:block:hover {
-  display: block;
-}
-
 .hover\:bg-indigo-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[url\(\'\/images\/glow\/card-red-glow\.303cd894\.svg\'\)\]:hover {
-  background-image: url('/images/glow/card-red-glow.303cd894.svg');
 }
 
 .hover\:bg-\[url\(\'\/images\/glow\/card-mist-glow\.6139fbd9\.svg\'\)\]:hover {
   background-image: url('/images/glow/card-mist-glow.6139fbd9.svg');
 }
 
-.hover\:bg-\[url\(\'\/images\/glow\/card-purple-glow\.bc96a7d4\.svg\'\)\]:hover {
-  background-image: url('/images/glow/card-purple-glow.bc96a7d4.svg');
+.hover\:bg-\[url\(\'\/images\/glow\/card-red-glow\.303cd894\.svg\'\)\]:hover {
+  background-image: url('/images/glow/card-red-glow.303cd894.svg');
 }
 
 .hover\:font-bold:hover {
