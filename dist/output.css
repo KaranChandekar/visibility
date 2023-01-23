@@ -1945,14 +1945,14 @@ body {
   background-color: rgb(14 20 20 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#182222\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 34 34 / var(--tw-bg-opacity));
-}
-
 .bg-indigo-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#182222\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 34 34 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -2111,10 +2111,6 @@ body {
      object-fit: scale-down;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-8 {
   padding: 2rem;
 }
@@ -2127,14 +2123,19 @@ body {
   padding: 1rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-0 {
@@ -2157,13 +2158,8 @@ body {
   padding-right: 1.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-40 {
@@ -2180,14 +2176,6 @@ body {
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
 }
 
 .text-left {
@@ -2246,6 +2234,11 @@ body {
   vertical-align: super;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -2264,11 +2257,6 @@ body {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -3108,6 +3096,11 @@ body {
     background-image: none;
   }
 
+  .lg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -3119,6 +3112,11 @@ body {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-7xl {
