@@ -10,6 +10,10 @@
   body {
     @apply bg-[#0e1414];
   }
+
+  p {
+    @apply text-[#eaffff];
+  }
 }
 
 @layer components {
