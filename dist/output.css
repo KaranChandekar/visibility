@@ -2921,6 +2921,10 @@ body {
     width: 40%;
   }
 
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
