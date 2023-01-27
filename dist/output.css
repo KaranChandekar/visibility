@@ -623,6 +623,13 @@ p {
   }
 }
 
+@media (min-width: 1280px) {
+  .container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
 .links-container {
   margin-bottom: 2rem;
   display: flex;
@@ -867,12 +874,12 @@ p {
   margin-bottom: 3.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .-mb-44 {
   margin-bottom: -11rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -2813,6 +2820,13 @@ p {
     }
   }
 
+  @media (min-width: 1280px) {
+    .sm\:container {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+  }
+
   .sm\:w-\[70\%\] {
     width: 70%;
   }
@@ -2840,11 +2854,6 @@ p {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
-  }
-
-  .md\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
   }
 
   .md\:my-20 {
@@ -2983,9 +2992,9 @@ p {
     padding-bottom: 1.5rem;
   }
 
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .md\:text-left {
