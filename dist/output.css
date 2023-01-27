@@ -882,6 +882,10 @@ p {
   margin-top: 0.5rem;
 }
 
+.mb-44 {
+  margin-bottom: 11rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
