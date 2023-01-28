@@ -826,16 +826,6 @@ p {
   margin-bottom: 1rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-\[30px\] {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -2957,10 +2947,6 @@ p {
 
   .md\:w-\[40\%\] {
     width: 40%;
-  }
-
-  .md\:w-\[400px\] {
-    width: 400px;
   }
 
   .md\:w-\[650px\] {
