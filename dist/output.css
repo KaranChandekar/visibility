@@ -826,6 +826,16 @@ p {
   margin-bottom: 1rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -874,16 +884,8 @@ p {
   margin-bottom: 3.5rem;
 }
 
-.-mb-44 {
-  margin-bottom: -11rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mb-44 {
-  margin-bottom: 11rem;
 }
 
 .box-border {
@@ -994,6 +996,10 @@ p {
   width: 100%;
 }
 
+.w-\[150px\] {
+  width: 150px;
+}
+
 .w-60 {
   width: 15rem;
 }
@@ -1020,18 +1026,6 @@ p {
 
 .w-14 {
   width: 3.5rem;
-}
-
-.w-\[30px\] {
-  width: 30px;
-}
-
-.w-\[250px\] {
-  width: 250px;
-}
-
-.w-\[150px\] {
-  width: 150px;
 }
 
 .max-w-\[650px\] {
@@ -2917,6 +2911,10 @@ p {
     height: 100%;
   }
 
+  .md\:w-\[250px\] {
+    width: 250px;
+  }
+
   .md\:w-\[500px\] {
     width: 500px;
   }
@@ -2961,8 +2959,12 @@ p {
     width: 40%;
   }
 
-  .md\:w-\[250px\] {
-    width: 250px;
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .md\:w-\[650px\] {
+    width: 650px;
   }
 
   .md\:flex-row {
