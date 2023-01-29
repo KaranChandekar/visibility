@@ -17,7 +17,7 @@
 
 <body class="overflow-x-hidden bg-no-repeat bg-contain bg-bg-img">
   <!-- Navbar -->
-  <nav class="fixed flex items-center justify-between w-full px-4 py-4 lg:py-6 xl:px-10 bg-[#0e1414] z-30">
+  <nav class="fixed flex items-center justify-between w-full px-4 py-4 xl:px-10 bg-[#0e1414] z-30">
     <a href="#" class="z-20">
       <!-- <h1 class="text-xl lg:text-3xl">YoungNomads</h1> -->
       <img class="md:w-[250px] w-[150px]" src="/images/companies/youngnomads.webp" alt="">
@@ -29,10 +29,10 @@
       </span>
 
       <div
-        class=" bg-no-repeat bg-cover bg-bg-img lg:bg-none z-10 fixed inset-0 w-full translate-x-[-100%] bg-[#0e1414]
-          lg:bg-transparent shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none
-          lg:translate-x-0" id="nav-links">
-          <div class="flex flex-col justify-between h-full lg:items-center lg:flex-row">
+        class=" px-4 lg:px-0 bg-no-repeat bg-cover bg-bg-img lg:bg-none z-10 fixed inset-0 w-full translate-x-[-100%]
+          bg-[#0e1414] lg:bg-transparent shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static
+          lg:shadow-none lg:translate-x-0" id="nav-links">
+          <div class="flex flex-col h-full lg:space-x-10 lg:items-center lg:flex-row">
             <ul class="pt-24 space-y-8 lg:pt-0 lg:space-y-0 lg:flex lg:space-x-10">
               <li class="text-indigo-500 nav-link">
                 <a href="#">Home</a>
@@ -47,10 +47,46 @@
                 <a href="/contact.html">Contact</a>
               </li>
             </ul>
+            <button id="show-modal" data-modal-target="popup-modal" data-modal-toggle="popup-modal"
+              class="w-full px-6 py-6 mt-10 text-sm font-bold duration-500 bg-indigo-500 rounded-lg lg:py-2 lg:mt-0 md:w-auto hover:bg-indigo-600"
+              type="button">
+              FREE AUDIT
+            </button>
           </div>
     </div>
-    </div>
   </nav>
+
+  <div id="popup-modal" tabindex="-1"
+    class="fixed top-0 left-0 right-0 z-50 flex items-center justify-center hidden w-full h-screen p-4 bg-black bg-opacity-50 md:inset-0">
+    <div class="container">
+      <div data-aos="fade-up" data-aos-duration="1000"
+        class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[#0e1414]">
+        <div class="mb-10 space-y-4 text-center md:text-left">
+          <p class="text-center md:text-xl">Get started with a <span class="text-2xl">FREE ASO AUDIT!</span></p>
+        </div>
+        <form class="flex flex-col md:flex-row md:space-x-10" action="" method="">
+          <div class="flex flex-col w-full md:space-y-4">
+            <input class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+              type="text" placeholder="First Name" name="firstname">
+            <input class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+              type="text" placeholder="Last Name" name="lastname">
+            <input class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+              type="email" placeholder="Email" name="email">
+          </div>
+          <div class="flex flex-col justify-between w-full space-y-4">
+            <input class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+              type="number" placeholder="Phone No." name="phoneno.">
+            <input class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+              type="url" placeholder="App URL" name="url">
+            <button id="close-modal"
+              class="w-full px-10 py-4 duration-500 bg-indigo-500 rounded-lg md:w-auto hover:bg-indigo-600"
+              type="submit">
+              <a class="font-bold" href="#">Get Report</a></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <!-- Header -->
   <header class="container flex flex-col items-center justify-between pt-40 text-center md:flex-row md:text-left">
