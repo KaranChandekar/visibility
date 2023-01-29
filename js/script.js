@@ -12,16 +12,6 @@ const onToggleMenu = (e) => {
   navLinks.classList.toggle("translate-x-[-100%]");
 };
 
-const animation = bodymovin.loadAnimation({
-  // animationData: { /* ... */ },
-  container: document.getElementById("lottie-container"), // required
-  path: "/images/animations/digitalmarketing.json", // required
-  renderer: "svg", // required
-  loop: true, // optional
-  autoplay: true, // optional
-  name: "Demo Animation", // optional
-});
-
 showModal.addEventListener("click", () => {
   popUpModal.classList.remove("hidden");
 });
@@ -29,4 +19,3 @@ showModal.addEventListener("click", () => {
 closeModal.addEventListener("click", () => {
   popUpModal.classList.add("hidden");
 });
-
