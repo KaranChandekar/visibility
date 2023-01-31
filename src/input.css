@@ -44,13 +44,7 @@
   .secondary-button {
     @apply w-full px-10 py-4 duration-500 border border-indigo-500 rounded-lg hover:bg-indigo-500;
   }
-
-  .nav-div {
-    @apply px-4 lg:px-0 bg-no-repeat bg-cover bg-bg-img lg:bg-none z-10 fixed inset-0 w-full
-                    translate-x-[-100%] bg-[#0e1414] lg:bg-transparent shadow-xl transition duration-300 lg:border-r-0
-                    lg:w-auto lg:static lg:shadow-none lg:translate-x-0;
-  }
-
+  
   .nav-button {
     @apply w-full px-6 py-4 mt-10 text-sm font-bold duration-500 bg-indigo-500 rounded-lg lg:py-2 lg:mt-0 md:w-auto hover:bg-indigo-600;
   }
