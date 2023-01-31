@@ -861,14 +861,6 @@ p {
   right: 0.5rem;
 }
 
-.top-2 {
-  top: 0.5rem;
-}
-
-.top-3 {
-  top: 0.75rem;
-}
-
 .top-4 {
   top: 1rem;
 }
@@ -985,6 +977,10 @@ p {
   margin-top: 3rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -999,14 +995,6 @@ p {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
 }
 
 .box-border {

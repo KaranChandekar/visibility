@@ -29,7 +29,9 @@
           </span>
     
           <div
-            class=" px-4 lg:px-0 bg-no-repeat bg-cover bg-bg-img lg:bg-none z-10 fixed inset-0 w-full translate-x-[-100%] bg-[#0e1414] lg:bg-transparent shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0" id="nav-links">
+            class=" px-4 lg:px-0 bg-no-repeat bg-cover bg-bg-img lg:bg-none z-10 fixed inset-0 w-full
+                    translate-x-[-100%] bg-[#0e1414] lg:bg-transparent shadow-xl transition duration-300 lg:border-r-0
+                    lg:w-auto lg:static lg:shadow-none lg:translate-x-0" id="nav-links">
                     <div class="flex flex-col h-full lg:space-x-10 lg:items-center lg:flex-row">
                         <ul class="pt-24 space-y-8 lg:pt-0 lg:space-y-0 lg:flex lg:space-x-10">
                             <li class="nav-link">
@@ -54,43 +56,45 @@
     </nav>
 
     <div id="popup-modal" tabindex="-1"
-        class="fixed top-0 left-0 right-0 z-50 flex items-center justify-center hidden w-full h-screen bg-black bg-opacity-50 md:inset-0">
+        class="fixed top-0 left-0 right-0 z-50 flex items-center justify-center hidden w-full h-screen p-0 bg-black bg-opacity-50 md:inset-0">
         <div class="container">
             <div data-aos="fade-up" data-aos-duration="1000"
                 class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[#0e1414]">
-                <div class="mb-10 space-y-4 text-center md:text-left">
-                    <p class="text-center md:text-xl">Get started with a <span class="text-2xl">FREE SEO AUDIT!</span>
-                    </p>
-                </div>
-                <form class="flex flex-col md:flex-row md:space-x-10" action="" method="">
-                    <div class="flex flex-col w-full md:space-y-4">
-                        <input
-                            class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
-                            type="text" placeholder="First Name" name="firstname">
-                        <input
-                            class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
-                            type="text" placeholder="Last Name" name="lastname">
-                        <input
-                            class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
-                            type="email" placeholder="Email" name="email">
-                    </div>
-                    <div class="flex flex-col justify-between w-full space-y-4">
-                        <input
-                            class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
-                            type="number" placeholder="Phone No." name="phoneno.">
-                        <input
-                            class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
-                            type="url" placeholder="Website" name="url">
-                        <div class="flex flex-col justify-between gap-4 md:flex-row">
-                            <button id="close-modal" class="secondary-button" type="submit">
-                                <a class="font-bold" href="#">cancel</a></button>
-                            <button id="close-modal" class="primary-button" type="submit">
-                                <a class="font-bold" href="#">Get Report</a></button>
-                        </div>
-                    </div>
-                </form>
+
+                <span class="absolute z-20 mx-2 text-3xl cursor-pointer right-2 top-4">
+                    <ion-icon id="close-modal" name="close" id="menu-icon""></ion-icon>
+                  </span>
+                  
+            <div class="mb-10 space-y-4 text-center  md:text-left">
+                        <p class="text-center mt-14 md:text-xl md:mt-0">Get started with a <span class="text-2xl">FREE
+                                SEO
+                                AUDIT!</span></p>
             </div>
+            <form class="flex flex-col md:flex-row md:space-x-10" action="" method="">
+                <div class="flex flex-col w-full md:space-y-4">
+                    <input
+                        class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+                        type="text" placeholder="First Name" name="firstname">
+                    <input
+                        class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+                        type="text" placeholder="Last Name" name="lastname">
+                    <input
+                        class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+                        type="email" placeholder="Email" name="email">
+                </div>
+                <div class="flex flex-col justify-between w-full space-y-4">
+                    <input
+                        class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+                        type="number" placeholder="Phone No." name="phoneno.">
+                    <input
+                        class="py-6 bg-transparent border-b border-gray-700 outline-none focus:outline-none md:text-xl"
+                        type="url" placeholder="Website" name="url">
+                    <button class="primary-button" type="submit">
+                        <a class="font-bold" href="#">Get Report</a></button>
+                </div>
+            </form>
         </div>
+    </div>
     </div>
 
     <!-- Header -->
