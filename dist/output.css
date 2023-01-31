@@ -677,6 +677,57 @@ p {
   color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
+.primary-button {
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition-duration: 500ms;
+}
+
+.primary-button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+}
+
+.nav-button {
+  margin-top: 2.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  transition-duration: 500ms;
+}
+
+.nav-button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .nav-button {
+    width: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-button {
+    margin-top: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2413,26 +2464,6 @@ p {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-\[30px\] {
-  line-height: 30px;
-}
-
-.leading-\[40px\] {
-  line-height: 40px;
-}
-
-.leading-\[50px\] {
-  line-height: 50px;
-}
-
-.leading-\[60px\] {
-  line-height: 60px;
 }
 
 .tracking-wider {
