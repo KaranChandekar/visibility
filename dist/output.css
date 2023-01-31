@@ -2415,6 +2415,26 @@ p {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[40px\] {
+  line-height: 40px;
+}
+
+.leading-\[50px\] {
+  line-height: 50px;
+}
+
+.leading-\[60px\] {
+  line-height: 60px;
+}
+
 .tracking-wider {
   letter-spacing: 0.05em;
 }
