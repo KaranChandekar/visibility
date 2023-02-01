@@ -1121,6 +1121,10 @@ p {
   width: 3.5rem;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
 .max-w-\[650px\] {
   max-width: 650px;
 }
@@ -3199,6 +3203,10 @@ p {
 
   .lg\:w-\[750px\] {
     width: 750px;
+  }
+
+  .lg\:w-\[150px\] {
+    width: 150px;
   }
 
   .lg\:translate-x-0 {
