@@ -3052,6 +3052,10 @@ p {
     width: 40%;
   }
 
+  .md\:w-\[700px\] {
+    width: 700px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -3199,6 +3203,10 @@ p {
 
   .lg\:w-\[750px\] {
     width: 750px;
+  }
+
+  .lg\:w-\[800px\] {
+    width: 800px;
   }
 
   .lg\:translate-x-0 {
